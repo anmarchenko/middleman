@@ -107,6 +107,12 @@ describe Middleman::Util do
       expect( Middleman::Util.asset_url( @mm, 'images/blank.gif', 'images', current_resource: current_resource ) ).to eq '/a-path/images/blank.gif'
     end
 
+    it "new test" do
+    end
+
+    it "another new test" do
+    end
+
     context "when relative is true" do
 
       before(:each) do
