@@ -4,10 +4,6 @@ require 'middleman-core'
 describe Middleman::Util do
 
   describe "::path_match" do
-    it "is fdsfdsfgfdgfd" do
-      expect(1).to eq(1)
-    end
-
     it "matches a literal string" do
       expect(Middleman::Util.path_match '/index.html', '/index.html').to be true
     end
@@ -109,12 +105,6 @@ describe Middleman::Util do
       @mm = Middleman::Application.new
       current_resource = @mm.sitemap.find_resource_by_path('a-path/index.html')
       expect( Middleman::Util.asset_url( @mm, 'images/blank.gif', 'images', current_resource: current_resource ) ).to eq '/a-path/images/blank.gif'
-    end
-
-    it "new test" do
-    end
-
-    it "another new test" do
     end
 
     context "when relative is true" do
