@@ -4,10 +4,6 @@ require 'middleman-core'
 describe Middleman::Util do
 
   describe "::path_match" do
-    it "is a new test" do
-      expect(1).to eq(1)
-    end
-
     it "matches a literal string" do
       expect(Middleman::Util.path_match '/index.html', '/index.html').to be true
     end
