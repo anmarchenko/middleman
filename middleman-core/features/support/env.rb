@@ -16,5 +16,4 @@ Datadog.configure do |c|
   c.service = "middleman"
   c.ci.enabled = true
   c.ci.instrument :cucumber
-  c.ci.itr_enabled = true
 end
