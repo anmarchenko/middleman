@@ -17,6 +17,8 @@ module Middleman
         file.read
       end
 
+
+
       # @return Array<Middleman::Sitemap::Resource>
       Contract ResourceList => ResourceList
       def manipulate_resource_list(resources)
