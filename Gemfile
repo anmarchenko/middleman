@@ -4,6 +4,9 @@ source "https://rubygems.org"
 gem "datadog", github: "DataDog/dd-trace-rb", ref: "master"
 gem "datadog-ci", path: "../../p/datadog-ci-rb"
 
+# use this to run with continuous profiling
+# gem "datadog-ci", github: "DataDog/datadog-ci-rb", ref: "anmarchenko/code_coverage_performance_optimisation"
+
 # Build and doc tools
 gem "rake", "~> 13.0", require: false
 gem "yard", "~> 0.9.20", require: false
