@@ -21,6 +21,8 @@ describe Middleman::Util do
       expect(Middleman::Util.path_match /\.js$/, '/index.html').to be false
     end
 
+
+
     it "works with a proc" do
       matcher = lambda {|p| p.length > 5 }
 
