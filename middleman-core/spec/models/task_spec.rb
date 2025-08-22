@@ -30,6 +30,18 @@ RSpec.describe 'Task' do
 
             it 'new not implemented'
           end
+
+          context '😡' do
+            it 'values  ' do
+              expect(1).to eq(1)
+            end
+          end
+
+          context "aaa\f\d\x00abcd" do
+            it 'values  ' do
+              expect(1).to eq(1)
+            end
+          end
         end
       end
     end
