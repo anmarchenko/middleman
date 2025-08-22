@@ -28,7 +28,7 @@ RSpec.describe 'Task' do
               expect(1).to eq(1)
             end
 
-            it 'new not implemented'
+            it 'new not implementedd'
           end
 
           context '😡' do
